@@ -77,6 +77,12 @@ input{
   margin-right: 12px;
 }
 
+
+.Ui-buttons a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 button :hover::after {
   content: "";
   position: absolute;
@@ -89,12 +95,10 @@ button :hover::after {
   border-radius: 12px;
 }
 
-button :hover {
+button :hover::after {
   color: white;
 }
 
-#whatshot {
-}
 
 #tamanho {
   padding-top: 5px;
@@ -131,4 +135,8 @@ button :hover {
   margin-right: 100px;
   padding: 5px;
   margin-top: 8px;
+}
+
+#bold {
+  font-weight: bold;
 }
